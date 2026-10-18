@@ -1,0 +1,24 @@
+{
+  "name": "رادار جریان پول",
+  "short_name": "رادار پول",
+  "description": "ردیابی زنده جریان پول و نقدینگی در Polymarket، Kalshi و PredictIt",
+  "lang": "fa",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050607",
+  "theme_color": "#050607",
+  "categories": ["finance", "news"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "نقشه جهان", "url": "./#/map", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "ایران", "url": "./#/topics/iran", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
